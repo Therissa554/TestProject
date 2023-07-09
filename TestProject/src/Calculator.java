@@ -7,6 +7,9 @@ public class Calculator {
 	public void add() {
 		System.out.println("sum is:"+(a+b));
 	}
+	public void mul() {
+		System.out.println("mul is:"+(a*b));
+	}
 	public static void main(String[] args) {
 		
 		Calculator cal=new Calculator();
